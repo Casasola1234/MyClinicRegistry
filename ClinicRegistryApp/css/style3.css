@@ -1,0 +1,49 @@
+@import 'normalize.css';
+@import 'material.min.css';
+
+.inicio{
+    text-align: center;
+    min-height:80vh;
+    background-size:100% 100%;
+    background-position: center;
+    background-repeat:no-repeat;
+    }
+    .inicio .inicio_text{
+       padding-top:200px;
+    }
+    
+    .swiper {
+    max-height:500px;
+    margin-bottom:50px;
+    }
+    .swiper-wrapper{
+    max-height:400px;
+    
+    }
+    
+    .swiper-slide {
+      position: relative;
+      text-align: start;
+      border-radius: 15px;
+      font-size: 19px;
+      box-shadow: 0px 4px 4px rgba(196, 196, 196, 0.25);
+      background: rgb(255, 255, 255);
+      
+    }
+    
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+    }
+    .card-description{
+    padding: 1rem;
+    }
+    .card-title,.card-text
+    {
+    margin-bottom: 0.5rem;
+    }
+    
